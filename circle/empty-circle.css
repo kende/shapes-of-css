@@ -1,0 +1,14 @@
+/* Shaped by: Jason Kende (http://github.com/kende/shapes-of-css/)
+/* If you () this shape please thank them!
+/* */
+
+#empty-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 100px 100px 100px 100px;
+  border-radius: 100px 100px 100px 100px;
+  background: transparent;
+  border: 10px red solid;
+}
+

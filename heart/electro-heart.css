@@ -1,0 +1,44 @@
+/* Shaped by: Jason Kende (http://github.com/kende)
+/* Modified from: Nick Gallagher (http://nicolasgallagher.com/)
+/* By way of: CSS Tricks (http://css-tricks.com/examples/ShapesOfCSS/)
+/* If you <heart> this shape please thank them!
+/* */ 
+
+#electro-heart {
+    position: relative;
+    width: 100px;
+    height: 80px;
+}
+#electro-heart:before,
+#electro-heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#electro-heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
