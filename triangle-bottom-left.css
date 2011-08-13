@@ -1,0 +1,10 @@
+/* Original source: CSS Tricks (http://css-tricks.com/examples/ShapesOfCSS/)
+/* If you ^ this shape please thank them!
+/* */
+
+#triangle-bottomleft {
+	width: 0;
+	height: 0;
+	border-bottom: 100px solid red; 
+	border-right: 100px solid transparent;	
+}

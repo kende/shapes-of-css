@@ -1,0 +1,12 @@
+/* Original source: CSS Tricks (http://css-tricks.com/examples/ShapesOfCSS/)
+/* If you / / this shape please thank them!
+/* */
+
+#parallelogram {
+	width: 150px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: red;
+}

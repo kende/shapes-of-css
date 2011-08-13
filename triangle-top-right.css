@@ -1,0 +1,11 @@
+/* Original source: CSS Tricks (http://css-tricks.com/examples/ShapesOfCSS/)
+/* If you ^ this shape please thank them!
+/* */
+
+#triangle-topright {
+	width: 0;
+	height: 0;
+	border-top: 100px solid red; 
+	border-left: 100px solid transparent;
+	
+}

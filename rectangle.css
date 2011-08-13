@@ -1,0 +1,9 @@
+/* Original source: CSS Tricks (http://css-tricks.com/examples/ShapesOfCSS/)
+/* If you [ ] this shape please thank them!
+/* */
+
+#rectangle {
+	width: 200px;
+	height: 100px;
+	background: red;
+}

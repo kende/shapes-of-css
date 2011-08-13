@@ -1,0 +1,12 @@
+/* Original source: CSS Tricks (http://css-tricks.com/examples/ShapesOfCSS/)
+/* If you () this shape please thank them!
+/* */
+
+#circle {
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
