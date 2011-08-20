@@ -1,0 +1,92 @@
+/* Shaped by: Jason Kende (http://github.com/kende)
+/* Modified from: Nick Gallagher (http://nicolasgallagher.com/)
+/* By way of: CSS Tricks (http://css-tricks.com/examples/ShapesOfCSS/)
+/* If you <heart> this shape please thank them!
+/* */ 
+
+/* This is a design spike. It is not finished or ready for use. */
+
+/* This one has to be done in an entirely different way. Two up 'triangles' at half size and one 'down' at full size. */
+
+#electro-heart {
+  position: relative;
+  height: 75px;
+  width: 100px;
+}
+
+#electro-heart-up:before {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid red;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#electro-heart-up:after {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid red;
+  position: absolute;
+  left: 50px;
+  top: 0;
+}
+
+#electro-heart-down {
+  width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+	position: absolute;
+	left: 0;
+	top: 25px;
+}
+
+
+
+/* Original: */
+/*
+#electro-heart {
+    position: relative;
+    width: 100px;
+    height: 80px;
+}
+#electro-heart:before,
+#electro-heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#electro-heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+*/

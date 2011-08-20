@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Shapes of CSS: Hearts</title>
+  <style>
+  
+    body {
+      padding: 100px;
+    }
+    
+    /* electro heart */
+  
+    #electro-heart {
+        position: relative;
+        width: 300px;
+        height: 240px;
+    }
+    #electro-heart:before,
+    #electro-heart:after {
+        position: absolute;
+        content: "";
+        left: 150px;
+        top: 0;
+        width: 150px;
+        height: 240px;
+        background: red;
+        -webkit-transform: rotate(-45deg);
+           -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+             -o-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: 0 100%;
+           -moz-transform-origin: 0 100%;
+            -ms-transform-origin: 0 100%;
+             -o-transform-origin: 0 100%;
+                transform-origin: 0 100%;
+    }
+    #electro-heart:after {
+        left: 0;
+        -webkit-transform: rotate(45deg);
+           -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+                transform: rotate(45deg);
+        -webkit-transform-origin: 100% 100%;
+           -moz-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+             -o-transform-origin: 100% 100%;
+                transform-origin :100% 100%;
+    }
+  </style>  
+</head>
+<body>
+  <!-- electro heart -->
+  <div id="electro-heart">
+  </div>
+</body>
+</html>
